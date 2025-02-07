@@ -14,3 +14,5 @@ sequelize.authenticate()
   .catch(err => {
     console.error('Não foi possível conectar ao PostgreSQL:', err);
   });
+
+  export default sequelize;
